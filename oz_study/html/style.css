@@ -1,0 +1,30 @@
+/* div {
+    background-color: aqua;
+} */
+* {
+    font-weight: bold;
+    color: antiquewhite;
+}
+* {
+    color: aqua;
+}
+p {
+    color: blue;
+}
+.blue {
+
+}
+p.blue {
+
+}
+.blue.dark {
+
+}
+#red {
+
+}
+span,.blue,#red {
+    text-underline-position: ;
+}
+
+/* 우선순위 id/태그+클래스/태그/클래스 */
