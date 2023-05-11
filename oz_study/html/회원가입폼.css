@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+.king {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form {
+    border: 2px outset rgba(31, 115, 184, 0.619);
+    padding: 50px;
+    box-shadow: 2px 3px 5px 0px rgba(31, 115, 184, 0.82);
+    border-radius: 3%;
+}
+
+.head {
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#user_name {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 3em;
+    height: 3em;
+    width: 275.63px;
+}
+
+#user_pasw1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 3em;
+    height: 3em; 
+    width: 275.63px;   
+}
+
+#user_pasw2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 3em;
+    height: 3em;    
+    width: 275.63px;
+}
+
+#user_email {
+    margin-bottom: 5px;
+    line-height: 3em;
+    height: 3em;
+    width: 275.63px;
+    margin-top: 10px;
+}
+
+.phone {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* width: 236.67px;  */
+    height: 40px; 
+}
+
+.human1 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: right;    
+}
+
+.human2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: right;    
+}
+
+.region {
+    width: 275.63px;
+    height: 40px;
+}
+
+.gender {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.phone2 {
+    width: 80px;
+    height: 40px; 
+}
+
+.phone3 {
+    width: 80px;
+    height: 40px; 
+}
+
+.phone1 {
+    height: 40px; 
+    width: 80px;
+}
+
+.finish {
+    text-align: center;
+}
+
+.click {
+    background-color: white !important;
+    border: 1px solid rgb(117, 117, 117);
+    height: 30px;
+    border-radius: 1%;
+}
+
+.click#click{
+    height: 50px;
+    width: 275.63px;
+}
+
+.line {
+    padding-top: 30px;
+    border-top: 1px solid black;
+}

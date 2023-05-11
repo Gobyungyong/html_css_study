@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="Viewport" content="width-device-width, initial-scale=1.0">
+        <title>oz coding</title> 
+        <link rel="stylesheet" href="day3_2.css">
+    </head>
+    <body>
+        <div class="container">
+        <div class="wrapper">
+        <header class="modi">
+            <div>oz코딩스쿨 회원가입</div>
+        </header>
+        <main>
+            <form class="modifi">
+                <div><input type="email" class="id" required placeholder="이메일을 입력하세요"></div>
+                <div><input type="text" class="id" required placeholder="이름을 입력하세요"></div>
+                <div><input type="password" class="id" required placeholder="비밀번호를 입력하세요"></div>
+                <div><input type="password" class="id" id="yum"  required placeholder="비밀번호를 다시 입력하세요"></div>
+                <input type="text" required maxlength="3" style="width:60px;"> 
+                - <input type="text" required maxlength="4" style="width:60px;">
+                - <input type="text" required maxlength="4" style="width:60px;">
+                <div id="number">000000 <button class="button" disabled>인증번호 전송</button></div>
+                <div id="number">3:00 <button class="button" disabled>인증 완료</button></div>
+                <select>
+                    <option selected disabled>지역을 선택하세요</option>
+                    <option>서울</option>
+                    <option>부산</option>
+                    <option>경기</option>
+                    <option>대구</option>
+                    <option>광주</option>
+                    <option>제주도</option>
+                </select>
+                <div class="gender">
+                <input style="width:8px;height:8px" type="radio" name="gender" value="female">여성
+                <input style="width:8px;height:8px" type="radio" name="gender" value="male">남성</div>
+                <div><button disabled style="width:215px; height:40px;">가입하기</button></div>
+            </form>
+        </main>
+        <footer></footer>
+        </div>
+        </div>
+        </body>
+        </html>

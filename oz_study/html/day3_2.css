@@ -1,0 +1,77 @@
+* {
+    box-sizing : border-box;
+}
+.container {
+    display :flex;
+    justify-content : center;
+    align-items: center;
+    min-height : 100vh;
+}
+
+
+.wrapper {
+    display :flex;
+    align-items: center;
+    flex-direction : column;
+    border : 1px solid skyblue;
+    /* text-align :center; */
+    width : 300px;
+    height : 500px;
+    box-shadow: 2px 2px 2px 1px skyblue;
+    border-radius : 15px;
+}
+
+.id {
+    margin : 5px;
+    width : 215px;
+    height : 25px;
+    margin-bottom:6px;
+    font-size:5px;
+}
+#number {
+    text-align : right;
+    margin-top : 10px;
+    font-size:10px;
+    width :220px;
+    align-items:right;
+    padding-left: 50px;
+    
+}
+select {
+    width : 215px;
+    height :30px;
+    margin-top : 10px;
+    font-size :5px;
+}
+
+header {
+    padding : 15px;
+    color : blue;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top : 10px;
+    align-items:left; 
+   
+}
+
+    .gender {
+        padding: 20px;
+        margin-bottom :10px;
+        font-size :8px;
+        border-bottom :dashed 1px gray;
+        
+    }
+    #yum {
+        margin-bottom :10px;
+    }
+    
+    .button {
+    width:80px;   
+    font-size:4px;
+    height:20px;
+    margin-left :2px;
+    }
+
+    .modi {
+        text-align : left;
+    }

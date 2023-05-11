@@ -1,0 +1,17 @@
+.main {
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sub {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}

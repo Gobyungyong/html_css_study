@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./회원가입폼.css">
+    <title>oz코딩스쿨 회원가입</title>
+</head>
+<body>
+    <div class="king">
+        <div class="form">
+            <div class="head">oz코딩스쿨 회원가입</div>
+            <form>
+                <div><label for="user_email"><input id="user_email" type="email" placeholder="이메일을 입력해주세요." required /></label></div>
+                <div><label for="user_name"><input id="user_name" type="text" placeholder="이름을 입력해주세요." required /></label></div>
+                <div><lable for="user_pasw1"><input id="user_pasw1" type="password" placeholder="비밀번호를 입력해주세요." required /></lable></div>
+                <div><label for="user_pasw2"><input id="user_pasw2" type="password" placeholder="비밀번호를 다시 입력해주세요." required /></label></div>
+                <div class="phone"><label><input size="3" class="phone1"> - <input class="phone2"> - <input class="phone3"></label></div>
+                <div class="human1"><span style="background-color: rgba(127, 255, 212, 0.244);"> 000000</span> <button disabled class="click"><span>인증번호 전송</span></button></div>
+                <div class="human2"><span style="background-color: rgba(127, 255, 212, 0.244);">3:00</span> <button disabled class="click">인증확인</button>
+                </div>
+                <select class="region">
+                    <option selected disabled>지역을 선택하세요</option>
+                    <option>서울</option>
+                    <option>경기</option>
+                    <option>인천</option>
+                    <option>대구</option>
+                    <option>광주</option>
+                    <option>부산</option>
+                    <option>기타</option>
+                </select>
+                <div class="gender"><input type="radio" value="female" name="gender"> 여성
+                <input type="radio" value="male" name="gender"> 남성</div>
+                <div class="line">
+                    <div class="finish"><label for="click"><input class="click" id="click" type="submit" onclick="alert('가입을 축하드립니다.')" value="가입하기" /></label></div>
+                </div>        
+                </form>
+        </div> 
+    </div>    
+</body>
+</html>
