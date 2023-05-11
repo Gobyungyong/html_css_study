@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+.maincontainer {
+    border: 2px solid black;
+    border-radius: 2%;
+    width: 600px;
+    height: 630px;
+    margin-left: 30%;
+    padding: 30px;
+    margin-top: 100px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.subcon1 {
+    border-bottom: dotted;
+}
+
+.headline {
+    background-color: rgb(190, 177, 23);
+    color: white;
+    width: 535px;
+    height: 70px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.text#by {
+    margin-top: 25px;
+    font-weight: bold;
+    color: rgb(190, 177, 23);
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.subcon2 {
+    margin-top: 30px;
+    border  : 1px inset rgb(243, 236, 236);
+    padding: 30px;
+    background-color: rgb(249, 243, 234);
+}
+
+.kimchi {
+    font-weight: bold;
+    color: brown;
+}
+
+.egg {
+    font-weight: bold;
+    color: rgb(190, 177, 23);
+}
+
+.heavy {
+    font-size: 25px;
+    font-style: italic;
+    color: blue;
+    font-weight: bold;
+}
+
+.diaryname {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.diary {
+    margin-top: 15px;
+}
+
+.day {
+    margin-left: 360px;
+    font-size: 13px;
+}
+
+.day {
+    /* margin-left: 369px; */
+    font-size: 13px;
+    /* justify-content: flex-end; */
+    text-align: right;
+}
+
