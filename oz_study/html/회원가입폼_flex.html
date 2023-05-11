@@ -11,23 +11,24 @@
     <div class="papa">
 
         <div class="mama">
+            
             <form>
 
                 <div class="headline">oz코딩스쿨 회원가입</div>
 
                 <div class="flex1">
-                    <div><label for="user_email"><input required class="flexop" id="user_email" placeholder="이메일을 입력하세요."></label></div>
-                    <div><label for="user_name"><input required class="flexop" id="user_name" placeholder="이름을 입력하세요."></label></div>
-                    <div><label for="user_pasw1"><input required class="flexop" id="pasw1" placeholder="비밀번호를 입력하세요."></label></div>
-                    <div><label for="user_pasw2"><input required class="flexop" id="user_pasw2" placeholder="비밀번호를 다시 입력하세요."></label></div>
+                    <div><label for="user_email"><input type="email" required class="flexop" id="user_email" placeholder="이메일을 입력하세요."></label></div>
+                    <div><label for="user_name"><input type="text" required class="flexop" id="user_name" placeholder="이름을 입력하세요."></label></div>
+                    <div><label for="user_pasw1"><input type="password" required class="flexop" id="pasw1" placeholder="비밀번호를 입력하세요."></label></div>
+                    <div><label for="user_pasw2"><input type="password" required class="flexop" id="user_pasw2" placeholder="비밀번호를 다시 입력하세요."></label></div>
                 </div>
 
                 <div class="flex2">                   
-                    <div><input id="phone"></div>
+                    <div><input id="phone" maxlength="4"></div>
                     <div class="-"> -</div>
-                    <div><input id="phone"></div> 
+                    <div><input id="phone" maxlength="4"></div> 
                     <div class="-"> -</div> 
-                    <div><input id="phone"></div>
+                    <div><input id="phone" maxlength="4"></div>
                 </div>
 
                 <div class="flex3">
@@ -60,7 +61,9 @@
                 </div>
 
             </form>    
+        
         </div>      
+   
     </div>
     
 </body>
